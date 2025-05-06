@@ -55,7 +55,7 @@ public class Main {
                     System.out.println(-1);
                     return;
                 }
-                scores.remove(scores.size()-1);
+                scores.remove(scores.size() - 1);
             } else {
                 // 纯数字
                 scores.add(Integer.parseInt(params[i]));
