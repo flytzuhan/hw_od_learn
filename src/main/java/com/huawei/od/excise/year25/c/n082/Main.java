@@ -1,5 +1,10 @@
+package com.huawei.od.excise.year25.c.n082;
+
 import java.util.*;
 
+/**
+ * 约瑟夫环问题 -- 约瑟夫环，跟跳7是一种类型的问题
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
