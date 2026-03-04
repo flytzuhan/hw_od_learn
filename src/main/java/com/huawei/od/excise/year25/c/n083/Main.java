@@ -1,7 +1,5 @@
 package com.huawei.od.excise.year25.c.n083;
 
-import sun.nio.cs.ext.MacHebrew;
-
 import java.util.Arrays;
 import java.util.Scanner;
 

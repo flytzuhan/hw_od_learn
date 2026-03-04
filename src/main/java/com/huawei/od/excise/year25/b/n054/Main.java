@@ -1,7 +1,5 @@
 package com.huawei.od.excise.year25.b.n054;
 
-import javafx.scene.transform.Scale;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
