@@ -1,4 +1,7 @@
-package com.shadow.bfs;
+package com.huawei.od.excise.last;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * 流浪地球 -- BFS
@@ -18,7 +21,7 @@ public class WanderingEarthMain {
         // 现在开始获取命令行中输入的数据
         int minTime = Integer.MAX_VALUE;
         for(int i = 0; i < m; i++) {
-            int[] postData = Arrays.stream(in.nextLint().split(" ")).mapToInt(Integer::parseInt).toArray();
+            int[] postData = Arrays.stream(in.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             minTime = Math.min(minTime, postData[0]);
             grid[postData[1]] = postData[0]; 
         }
